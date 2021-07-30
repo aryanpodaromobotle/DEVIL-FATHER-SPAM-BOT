@@ -17,7 +17,8 @@ You can Use these [API ID and API HASH](https://t.me/OfficialYukki/135) while de
 ## String Session
 No Requirement of API ID and API HASH
 
-   - Generate on Repl [![Run on Repl.it](https://replit.com/@unknownforall1/FATHER-SID-OP-SPAM-BOT#main.py)](https://replit.com/unknownforall1/FATHER-SID-OP-SPAM-BOT)
+   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/unknownforall1/DEVIL-FATHER-SPAM-BOT)](https://replit.com/@unknownforall1/FATHER-SID-OP-SPAM-BOT)
+
    - Termux : `sh -c "$(curl -fsSL https://da.gd/YukkiBot)"` (Use `python string_session.py` next time to generate another string.)
 
 
