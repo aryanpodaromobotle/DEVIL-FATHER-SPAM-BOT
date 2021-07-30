@@ -11,7 +11,7 @@
       "STRING": {
         "description": "Telethon String Session",
         "value": "",
-        "required": false
+        "required": true
       },
       "STRING2": {
         "description": "Telethon String Session",
@@ -142,7 +142,7 @@
         "description": "PUT YOUR NAME ",
         "value": "",
         "required": false
-      }
+      },
       "API_HASH": {
         "description": "Api Hash",
         "value": "",
