@@ -1,11 +1,16 @@
-# Yukki Multi Spam Bot 
+# DEVIL-FATHER-SPAM-BOT
+## MODIFIED OF YUKKI BOT
+### modified  by 
+
+  - [SIDDHANT]()
+  - [RYNA]()
 
 <p align="center">
-  <img src="https://telegra.ph/file/9daafeb39193a4a22ee5c.jpg">
+  <img src="https://telegra.ph/file/1c6a36ba592baf8654155.jpg">
 </p>
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FYukkiBot%2FYukkiMultiSpamBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Funknownforall1%2FDEVIL-FATHER-SPAM-BOT)
 
 You can Use these [API ID and API HASH](https://t.me/OfficialYukki/135) while deploying
 
@@ -17,6 +22,6 @@ No Requirement of API ID and API HASH
 
 
 ## Support Group
-   - Join [Yukki Support Group](https://t.me/officialyukki) for any assistance.
+   - Join [DEVIL-FATHER SUPPORT GROUP](https://t.me/officialyukki) for any assistance.
 ## Credits
-   - Thanks to [Yukki Team](https://t.me/officialyukki).
+   - Thanks to [yukki Team](https://t.me/officialyukki).
