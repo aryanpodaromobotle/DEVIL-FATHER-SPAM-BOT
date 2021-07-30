@@ -1,7 +1,7 @@
 {
-  "name": "YUKKI SPAM USERBOT",
-  "description": "A Powerful Telegram Spam Userbot.",
-  "logo": "https://telegra.ph/file/bf6f67d9f1f1106ca4dce.jpg",
+  "name": "FATHER-SID-OP-SPAM-BOT",
+  "description": "THIS IS POWERFUL BOT MODIFIED OF YUKKI.",
+  "logo": "https://telegra.ph/file/1c6a36ba592baf8654155.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -14,7 +14,7 @@
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "API ID ",
         "value": "",
         "required": true
       },
@@ -68,6 +68,11 @@
         "value": "",
         "required": true
       },
+      "ALIVE_NAME": {
+        "description": "YOUR NAME",
+        "value": "",
+        "required": FALSE
+      }
       "SUDO": {
         "description": "Sudo Users Id",
         "value": "",
