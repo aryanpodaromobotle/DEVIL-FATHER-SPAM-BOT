@@ -1131,15 +1131,9 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-
-
-
-
-async def _(e):
-    
+async def ping(e):
     if e.sender_id in SMEX_USERS:
-    await e.delete()
-    event = await e.reply(e.chat_id, file=file1,caption=pm_caption)
+        event = await e.reply(file1,caption=pm_caption)
 
         
 
