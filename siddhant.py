@@ -1138,9 +1138,8 @@ async def spam(e):
 async def _(e):
     
     if e.sender_id in SMEX_USERS:
-    await e.getChat()
     await e.delete()
-    on = await borg.send_file(e.chat_id, file=file1,caption=pm_caption)
+    event = await e.reply(e.chat_id, file=file1,caption=pm_caption)
 
         
 
