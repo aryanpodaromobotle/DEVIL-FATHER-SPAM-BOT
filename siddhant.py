@@ -13,7 +13,6 @@ from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID
-
 from Config import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 
@@ -1131,12 +1130,7 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-async def alive(e):
-    if e.sender_id in SMEX_USERS:
-       caption = pm_caption
-       event = await e.reply(file1, caption)
-
-        
+       
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DEVIL FATHER BOT"
@@ -1160,6 +1154,11 @@ pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BO
 
 
         
+async def amireallyalive(alive):
+    if e.sender_id in SMEX_USERS:
+    await alive.get_chat()
+    await alive.delete()
+    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
 
 
 
