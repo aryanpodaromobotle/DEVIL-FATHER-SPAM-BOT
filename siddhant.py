@@ -977,44 +977,6 @@ async def _(e):
             
                 
 
-import asyncio
-import random
-from telethon import events, version
-from userbot import ALIVE_NAME, mafiaversion
-from userbot.utils import admin_cmd, sudo_cmd
-from telethon.tl.types import ChannelParticipantsAdmins
-from userbot.cmdhelp import CmdHelp
-
-# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DEVIL FATHER BOT"
-
-
-edit_time = 16
-""" =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/9261bb84875aeee1cc49d.mp4"
-""" =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝐃𝐄𝐕𝐈𝐋 𝐅𝐀𝐓𝐇𝐄𝐑 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
-
-pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
-pm_caption += (
-    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={𝐃𝐄𝐕𝐈𝐋})😈』**\n\n"
-)
-pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/RDX_OFFICIAL_BOT)\n"
-pm_caption += f"┣•➳➠ `Creator:` [VIVEK]https://t.me/SIDDHANT_DEVIL)\n"
-pm_caption += f"┣•➳➠ `Supporter:` [Hell](https://t.me/rynaop)\n"
-pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT) 🔹 [📜License📜](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT/blob/main/LICENSE)"
-
-# @command(outgoing=True, pattern="^.alive$")
-@bot.on(admin_cmd(outgoing=True, pattern="alive$",
-@bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
-async def amireallyalive(alive):
-    await alive.get_chat()   
-    await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
-
-        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
