@@ -1133,7 +1133,7 @@ async def spam(e):
        
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DEVIL FATHER BOT"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "FATHER-SID-OP-BOT"
 
 
 """ =======================CONSTANTS====================== """
