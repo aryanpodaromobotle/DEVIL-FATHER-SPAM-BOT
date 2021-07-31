@@ -1459,7 +1459,7 @@ async def alive(e):
     if e.sender_id in SMEX_USERS:
         text = "👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』"
         file = "https://telegra.ph/file/264a11a7e6c2b8a8f0277.mp4"
-        event = await e.reply(text, file, parse_mode=None, link_preview=None )
+        event = await e.send_file(e.chat_id,file,text)
         await event.edit(f"https://telegra.ph/file/264a11a7e6c2b8a8f0277.mp4 👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』")
 
 
