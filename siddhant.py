@@ -1457,9 +1457,10 @@ async def ping(e):
 
 async def alive(e):
     if e.sender_id in SMEX_USERS:
-        text = "THODA RUKO!"
-        event = await e.reply(text, parse_mode=None, link_preview=None )
-        await event.edit(f"https://telegra.ph/file/264a11a7e6c2b8a8f0277.mp4","👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』","[🔥𝐑𝐄𝐏𝐎🔥](https://t.me/FATHER_SID_OP_SPAM_BOT)")
+        text = "👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』"
+        file = "https://telegra.ph/file/264a11a7e6c2b8a8f0277.mp4"
+        event = await e.reply(text, file, parse_mode=None, link_preview=None )
+        await event.edit(f"https://telegra.ph/file/264a11a7e6c2b8a8f0277.mp4 👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』")
 
 
 
