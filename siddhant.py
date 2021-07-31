@@ -1097,71 +1097,6 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-
-
-
-
-
-
-
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-
-       
-
-# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-
-
-
-pm_caption = "  __**🔥🔥 𝐒𝐈𝐃-𝐏𝐑𝐄𝐄𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
-
-pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
-pm_caption += (
-    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈』**\n\n"
-)
-pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣•➳➠ `Channel:` [𝐉𝐎𝐈𝐍](https://t.me/RDX_OFFICIAL_BOT)\n"
-pm_caption += f"┣•➳➠ `Creator:` [𝐒𝐈𝐃 𝐎𝐏]https://t.me/SIDDHANT_DEVIL)\n"
-pm_caption += f"┣•➳➠ `Supporter:` [𝐏𝐑𝐄𝐄𝐓](https://t.me/rynaop)\n"
-pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT) 🔹 [📜License📜](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT/blob/main/LICENSE)"
-
-
-        
-async def amireallyalive(alive):
-    if e.sender_id in SMEX_USERS:
-    await alive.get_chat()
-    await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=https://telegra.ph/file/9261bb84875aeee1cc49d.mp4,caption=pm_caption)
-
-
-
-
-
-
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -1489,8 +1424,45 @@ async def ping(e):
 
 
 
-        
-        
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+
+       
+
+
+async def alive(e):
+    if e.sender_id in SMEX_USERS:
+        text = "THODA RUKO!"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        await event.edit(f"https://telegra.ph/file/9261bb84875aeee1cc49d.mp4, 👑𝐌𝐀𝐒𝐓𝐄𝐑👑『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 』)
+
+
+
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
