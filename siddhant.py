@@ -1149,7 +1149,7 @@ pm_caption = "  __**🔥🔥𝐃𝐄𝐕𝐈𝐋 𝐅𝐀𝐓𝐇𝐄𝐑 𝐁�
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
-    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={𝐃𝐄𝐕𝐈𝐋})😈』**\n\n"
+    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={ALIVE_NAME})😈』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/RDX_OFFICIAL_BOT)\n"
