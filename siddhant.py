@@ -1136,7 +1136,6 @@ async def spam(e):
 
 
 
-file1 = "https://telegra.ph/file/9261bb84875aeee1cc49d.mp4"
 pm_caption = "  __**🔥🔥 𝐒𝐈𝐃-𝐏𝐑𝐄𝐄𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
@@ -1156,7 +1155,7 @@ async def amireallyalive(alive):
     if e.sender_id in SMEX_USERS:
     await alive.get_chat()
     await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
+    on = await borg.send_file(alive.chat_id, file=https://telegra.ph/file/9261bb84875aeee1cc49d.mp4,caption=pm_caption)
 
 
 
