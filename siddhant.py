@@ -1133,8 +1133,8 @@ async def spam(e):
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
-        event = await e.reply(file1,caption=pm_caption)
-
+       event = await e.reply(file1,text)
+       text = pm_caption
         
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
@@ -1152,9 +1152,9 @@ pm_caption += (
     f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={ALIVE_NAME})😈』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣•➳➠ `Channel:` [ᴊᴏɪɴ](https://t.me/RDX_OFFICIAL_BOT)\n"
+pm_caption += f"┣•➳➠ `Channel:` [JOIN](https://t.me/RDX_OFFICIAL_BOT)\n"
 pm_caption += f"┣•➳➠ `Creator:` [VIVEK]https://t.me/SIDDHANT_DEVIL)\n"
-pm_caption += f"┣•➳➠ `Supporter:` [Hell](https://t.me/rynaop)\n"
+pm_caption += f"┣•➳➠ `Supporter:` [PREET](https://t.me/rynaop)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT) 🔹 [📜License📜](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT/blob/main/LICENSE)"
 
