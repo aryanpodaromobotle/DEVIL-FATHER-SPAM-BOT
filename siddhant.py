@@ -1132,12 +1132,15 @@ async def spam(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
 
+
+
+
 async def _(e):
     
     if e.sender_id in SMEX_USERS:
-    await alive.get_chat()   
-    await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
+    await e.get_chat()   
+    await e.delete()
+    on = await borg.send_file(e.chat_id, file=file1,caption=pm_caption)
 
         
 
@@ -1162,15 +1165,8 @@ pm_caption += f"┣•➳➠ `Supporter:` [Hell](https://t.me/rynaop)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT) 🔹 [📜License📜](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT/blob/main/LICENSE)"
 
-async def amireallyalive(alive):
-    await alive.get_chat()   
-    await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
 
         
-
-
-
 
 
 
@@ -1219,14 +1215,14 @@ async def spam(e):
                         await smex.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.4)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(yukki[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex) 
-                await asyncio.sleep(0.1)  
+                await asyncio.sleep(0.4)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(yukki[0])
