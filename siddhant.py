@@ -1131,17 +1131,17 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-async def ping(e):
+async def_(e):
     if e.sender_id in SMEX_USERS:
-       event = await e.reply(file1,text)
-       text = pm_caption
+       caption = pm_caption
+       event = await e.reply(file1, caption)
+
         
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DEVIL FATHER BOT"
 
 
-edit_time = 16
 """ =======================CONSTANTS====================== """
 file1 = "https://telegra.ph/file/9261bb84875aeee1cc49d.mp4"
 """ =======================CONSTANTS====================== """
