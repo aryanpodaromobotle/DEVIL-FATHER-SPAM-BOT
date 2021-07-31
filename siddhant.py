@@ -1133,22 +1133,21 @@ async def spam(e):
        
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "FATHER-SID-OP-BOT"
 
 
 """ =======================CONSTANTS====================== """
 file1 = "https://telegra.ph/file/9261bb84875aeee1cc49d.mp4"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝐃𝐄𝐕𝐈𝐋 𝐅𝐀𝐓𝐇𝐄𝐑 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
+pm_caption = "  __**🔥🔥 𝐒𝐈𝐃-𝐏𝐑𝐄𝐄𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
-    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{DEFAULTUSER}](tg://user?id={ALIVE_NAME})😈』**\n\n"
+    f"                 👑𝐌𝐀𝐒𝐓𝐄𝐑👑\n  **『😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈』**\n\n"
 )
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣•➳➠ `Channel:` [JOIN](https://t.me/RDX_OFFICIAL_BOT)\n"
-pm_caption += f"┣•➳➠ `Creator:` [VIVEK]https://t.me/SIDDHANT_DEVIL)\n"
-pm_caption += f"┣•➳➠ `Supporter:` [PREET](https://t.me/rynaop)\n"
+pm_caption += f"┣•➳➠ `Channel:` [𝐉𝐎𝐈𝐍](https://t.me/RDX_OFFICIAL_BOT)\n"
+pm_caption += f"┣•➳➠ `Creator:` [𝐒𝐈𝐃 𝐎𝐏]https://t.me/SIDDHANT_DEVIL)\n"
+pm_caption += f"┣•➳➠ `Supporter:` [𝐏𝐑𝐄𝐄𝐓](https://t.me/rynaop)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
 pm_caption += " [🔥REPO🔥](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT) 🔹 [📜License📜](https://github.com/UNKNOWNFORALL1/DEVIL-FATHER-BOT/blob/main/LICENSE)"
 
