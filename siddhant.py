@@ -1173,8 +1173,6 @@ async def spam(e):
 async def _(e):
     
     if e.sender_id in SMEX_USERS:
-
-async def amireallyalive(alive):
     await alive.get_chat()   
     await alive.delete()
     on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
