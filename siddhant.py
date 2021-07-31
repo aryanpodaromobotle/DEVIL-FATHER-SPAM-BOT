@@ -1131,7 +1131,7 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
-async def_(e):
+async def alive(e):
     if e.sender_id in SMEX_USERS:
        caption = pm_caption
        event = await e.reply(file1, caption)
