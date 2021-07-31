@@ -1138,7 +1138,7 @@ async def spam(e):
 async def _(e):
     
     if e.sender_id in SMEX_USERS:
-    await e.get_chat()   
+    await e.getChat()
     await e.delete()
     on = await borg.send_file(e.chat_id, file=file1,caption=pm_caption)
 
@@ -1496,7 +1496,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😬𝗟𝗜𝗡𝗚!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"🔥Ping!\n`{ms}` 𝗺𝘀")
 
 
 
