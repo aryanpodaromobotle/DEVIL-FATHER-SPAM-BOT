@@ -584,7 +584,7 @@ async def start_yukki():
             await ake(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
             await ake(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
             await ake(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
-            await ake(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            await ake(functions.channels.JoinChannelRequest(channel="@WE_ARE_MAFIA"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1153,7 +1153,7 @@ async def spam(e):
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1204,7 +1204,7 @@ async def spam(e):
                 caption = f"{username} {reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.4)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -1217,7 +1217,7 @@ async def spam(e):
                 caption = f"{username} {reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.4)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
