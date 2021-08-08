@@ -10,11 +10,9 @@ from Config import STRING, SUDO, API_ID, API_HASH, STRING2, STRING3
 import asyncio
 import telethon.utils
 from telethon.tl import functions
-from telethon.tl.functions.channels import LeaveChannelRequest
-from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID
 from Config import ALIVE_NAME
-from telethon.tl.types import ChannelParticipantsAdmins
+
 
 
 a = API_ID
@@ -108,9 +106,6 @@ async def start_yukki():
             await wdk.start()
         except Exception as e:
             pass
-
-
-   
    
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_yukki())       
@@ -324,13 +319,6 @@ async def ping(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"🔥Ping!\n`{ms}` 𝗺𝘀 {ALIVE_NAME}")
 
-
-
-
-
-
-
-
 @idk.on(events.NewMessage(incoming=True, pattern=r"\+restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\-restart"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\×restart"))
@@ -352,19 +340,10 @@ async def restart(e):
             pass
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
-
-        
-        
-        
-        
-        
-
-
-    
         
 text = """
 
-💥💥DEVIL FATHER SPAM BOT IS MODIFIED OF YUKKI 💥💥💥
+💥💥PAPA SPAM BOT IS MODIFIED OF YUKKI 💥💥💥
 💥💥💥💥💥💥 BY  SIDDHANT   OP 💥💥💥💥💥💥"""
 
 print(text)
@@ -381,5 +360,18 @@ if len(sys.argv) not in (1, 3, 4):
         pass
     try:
         wdk.disconnect()
+    except Exception as e:
+        pass
+else:
+    try:
+        idk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ydk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        wdk.run_until_disconnected()
     except Exception as e:
         pass
