@@ -134,14 +134,7 @@ async def gifspam(e, smex):
         
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
