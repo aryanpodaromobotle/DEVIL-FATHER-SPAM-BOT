@@ -3,7 +3,6 @@
 ### modified  by 
 
   - [SIDDHANT](https://t.me/siddhant_devil)
-  - [PREET](https://t.me/your_father_preet)
 
 <p align="center">
   <img src="https://telegra.ph/file/1c6a36ba592baf8654155.jpg">
