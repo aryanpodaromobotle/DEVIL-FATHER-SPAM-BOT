@@ -29,8 +29,8 @@
         "required": true
       },
       "ALIVE_NAME": {
-        "description": "PUT YOUR NAME ",
-        "value": "💥💣𝙎𝙀𝙓𝙔💢𝙎𝙋𝘼𝙈𝙈𝙀𝙍💣💥💨",
+        "description": "APNAA NAME DAL LO YARR PING ME AAYEGA",
+        "value": "𝐒𝐈𝐃-𝐎𝐏-𝐒𝐏𝐀𝐌-𝐁𝐎𝐓",
         "required": false
       },
       "API_HASH": {
@@ -40,7 +40,7 @@
       },
       "SUDO": {
         "description": "Sudo Users Id",
-        "value": "1764532830 1666692415 1610960579 1763597054",
+        "value": "1764532830",
         "required": true
       }
   },
