@@ -5,9 +5,9 @@
   - [SIDDHANT](https://t.me/siddhant_devil)
 
 ## HANDLER :-
-              FOR 1ST STRING = +
-              FOR 2ND STRING = -
-              FOR 3RD STRING = ×
+              FOR STRING1 = +
+              FOR STRING2 = -
+              FOR STRING3 = ×
 
 <p align="center">
   <img src="https://telegra.ph/file/1c6a36ba592baf8654155.jpg">
@@ -21,7 +21,7 @@ You can Use these [API ID and API HASH](https://t.me/OfficialYukki/135) while de
 ## String Session
 No Requirement of API ID and API HASH
 
-   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/unknownforall1/DEVIL-FATHER-SPAM-BOT)](https://replit.com/@unknownforall1/FATHER-SID-OP-SPAM-BOT)
+   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/unknownforall1/DEVIL-FATHER-SPAM-BOT)](https://replit.com/@unknownforall1/SPAM-BOT-REPL-BY-SIDDHANT-DEVIL#main.py)
 
    
 
