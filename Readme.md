@@ -1,8 +1,13 @@
-# FATHER-SID-OP-SPAM-BOT
+# SID-OP-SPAM-BOT
 ## MODIFIED OF YUKKI BOT
 ### modified  by 
 
   - [SIDDHANT](https://t.me/siddhant_devil)
+
+## HANDLER :-
+              FOR 1ST STRING = +
+              FOR 2ND STRING = -
+              FOR 3RD STRING = ×
 
 <p align="center">
   <img src="https://telegra.ph/file/1c6a36ba592baf8654155.jpg">
