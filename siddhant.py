@@ -46,7 +46,7 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@TEAM_FIGHTERS_OWNER"))
+            await idk(functions.channels.JoinChannelRequest(channel="@D3VIL_TECH"))
             await idk(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -62,6 +62,7 @@ async def start_yukki():
         except Exception as e:
             pass
    
+   
     if smexx:
         session_name = str(smexx)
         print("String 2 Found")
@@ -69,8 +70,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@TEAM_FIGHTERS_OWNER"))
             await ydk(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@D3VIL_TECH"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -94,8 +95,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@TEAM_FIGHTERS_OWNER"))
             await wdk(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@D3VIL_TECH"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -111,7 +112,6 @@ async def start_yukki():
             await wdk.start()
         except Exception as e:
             pass
-
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_yukki())       
